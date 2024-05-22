@@ -1,0 +1,212 @@
+body{
+    overflow:hidden;
+    background-image: url("imagens/home.jpg"); /* Define a imagem de fundo para o corpo da página */
+    background-size: cover;
+}
+
+
+nav{
+    height: 65px;/* Define a altura */
+    width: 98%; /* Define a largura */
+    background-color: white; /* Define a cor de fundo */
+    border-bottom-left-radius: 35px; /* Define as bordas arredondadas da esquerda */
+    border-bottom-right-radius: 35px; /* Define as bordas arredondadas da direita */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao cabeçalho */
+    padding-bottom:-10px;
+    display: flex; /* Define o modelo de layout flexível para o cabeçalho */
+    justify-content: space-between; /* Distribui o espaço entre os itens do cabeçalho */
+    margin-top: -20px; /* Define a margem superior negativa para ajustar a posição do cabeçalho */
+}
+
+nav a{
+    text-decoration: none;
+}
+.container{
+    padding: 20px; /* Adiciona preenchimento interno ao container */
+    margin: auto; /* Centraliza o container na página */
+    margin-top: 0; /* Remove a margem do topo da página */
+    display: flex;
+    padding-right: 0;
+} 
+
+.menu-item {
+    color: black; /* Define a cor de fonte */
+    padding: 10px;/* Adiciona preenchimento interno aos itens do menu */
+    margin-right: 5px; /* Define a margem direito do menu */
+    cursor: pointer; /* Para mostrar que é clicável */
+}
+
+.menu-item:hover {
+    background-color: #FA0202;
+    color: white; /* Altera a cor de fundo ao passar o mouse */
+}
+
+button {
+    background-color:#FA0202; /* cor de fundo dos botões*/
+    border-radius: 20px; /* define as bordas arredondadas dos botões */
+    border-color: #FA0202; /* cor das bordas dos botões */
+    padding: 0; /* Remove o preenchimento interno dos botões */
+    cursor: pointer; /* Altera o cursor ao passar sobre os botões */
+    width: 70px; /* Define a largura dos botões */
+    height: 30px; /* Define a altura dos botões */
+    margin-top: 20px; /* Define a margem superior dos botões */
+}
+
+button img {
+    width: 20px; /* tamanho da imagem*/
+    margin-top: 4px; /* Define a margem superior da imagem */
+}
+
+.bolha_conteudo_centro{
+    display: flex;
+    background-color:#434B83;
+    border-radius:30px;
+    width:35%;
+    padding:40px 20px 20px 20px;
+}
+
+
+.bolha_conteudo_centro div{
+    text-align:center;
+    color:white;
+    width:50%
+}
+.bolha_conteudo_centro div h1{
+    font-size:32px
+}
+.bolha_conteudo_centro div p{
+    font-size: 24px;
+}
+.bolha_conteudo_centro img{
+    height:192px;
+    width:192px
+}
+
+.bloco_texto{
+    text-align:center;
+    margin-left:40px;
+    width:40%;
+    font-size:24px;
+    font-weight: bold;
+}
+
+#container_conteudo_baixo{
+    width:100%;
+    justify-content: center;
+}
+
+.bolha_conteudo_baixo{
+    align-self: center;
+    width: 60%; /* Define a largura */
+    height: 10%; /* Define a altura */
+    margin-top: 50px; /* Define a posição vertical */
+    display: flex; /* Usa flexbox para o layout */
+    border-radius: 30px; /* Define o raio da borda */
+    flex-direction: row; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    background-color: #434B83; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto no centro */
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:10px;
+}
+
+/*ESTILO PÁGINA COMPRAR AGORA*/
+#compras{
+    display: flex; /* Usa flex para o layout (deixa uma div do lado da outra)*/
+    justify-content: center; /*centraliza o conteúdo*/
+}
+
+#compras img{
+    border-top-left-radius: 30px; /* Define o raio da borda superior esquerda */
+    border-top-right-radius: 30px; /* Define o raio da borda superior direita */
+}
+
+#leve1, #leve3{
+    display: flexbox; /* Usa flexbox para o layout (faz a div ficar na posição vertical) */
+    background-color:#434B83; /*cor de fundo*/
+    border-radius:30px; /*arredonda os cantos*/
+    width:25%; /*define o tamanho da div*/
+    padding-bottom: 20px; /*espaço de 20px em baixo*/
+    text-align:center; /*centraliza o texto*/
+    color:white; /*cor do texto*/
+    margin: 20px; /*define margem de 20px*/
+}
+
+.anuncio{
+    font-size: larger; /*tamanho da fonte*/
+    font-weight: bold; /*Deixa a fonte em negrito*/
+}
+
+.valor{
+    font-size: xx-large; /*tamanho da fonte*/
+    font-weight: bold; /*Deixa a fonte em negrito*/
+}
+
+.comprar{
+    background-color: #c1f47a; /*cor de fundo*/
+    color:#434B83; /*cor da fonte*/
+    font-weight: bold; /*Deixa a fonte em negrito*/
+    font-size: 15px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    border:0px; /*Define a grossura da borda*/
+    width: 180px; /* Define a largura dos botões */
+    height: 40px; /* Define a altura dos botões */
+}
+/*FIM DO ESTILO COMPRAR AGORA*/
+
+#rodape{
+    position:absolute;
+    bottom:0;
+    width:98%;
+
+
+    height: 55px; /* Define a altura do menu */
+    background-color: white; /* Define a cor de fundo */
+    border-top-left-radius: 35px; /* Define o raio da borda superior esquerda */
+    border-top-right-radius: 35px; /* Define o raio da borda superior direita */
+    padding: 5px 20px; /* Adiciona preenchimento interno ao menu */
+    display: flex; /* Usa flexbox para o layout */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+}
+
+#rodape button{
+    scale:1.1
+}
+
+#rodape button {
+    background-color: #FA0202; /* Define a cor de fundo do botão */
+    border-radius: 20px; /* Define o raio da borda do botão */
+    border-color: #FA0202; /* Define a cor da borda do botão */
+    padding: 0; /* Remove o preenchimento interno do botão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    width: auto; /* Ajusta a largura automaticamente */
+    height: 30px; /* Define a altura do botão */
+    display: flex; /* Usa flexbox para o layout */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+/* Estilos para as imagens dentro dos botões no menu do rodapé */
+#rodape button img {
+    width: 20px; /* Define a largura da imagem */
+    height: auto; /* Define a altura da imagem */
+    margin-top: 1px; /* Define a margem superior */
+    margin-left: 8px; /* Define a margem esquerda */
+}
+
+/* Estilos para o texto dentro dos botões no menu do rodapé */
+#rodape span {
+    color: rgb(255, 255, 255); /* Define a cor do texto */
+    padding: 10px; /* Adiciona preenchimento interno ao texto */
+    font-size: 15px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+#conteudo_central{
+    margin-bottom:10px
+}
+
+#imgConteudo{
+    display:flex
+}
